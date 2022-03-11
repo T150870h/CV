@@ -3,7 +3,7 @@ class Knlv {
     constructor() {
         this.$container = document.createElement('div');
         this.$worrk = document.createElement('p');
-        this.$worrk.setAttribute('class', 'font-medium text-2xl ml-36 mt-8');
+        this.$worrk.setAttribute('class', 'font-medium text-2xl ml-36 mt-8 text-blue-500');
         this.$worrk.innerText = 'kinh nghiệm làm việc';
 
         this.$time_1 = new workExperience(
@@ -37,7 +37,6 @@ class Knlv {
             `- Tham gia truyền thông cửa hàng
             -  Trực tiếp, giới thiệu sản phẩm cho khách hàng tư vấn khách hàng
             -  Thu ngân`
-
          );
     }
     render() {

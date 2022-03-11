@@ -4,15 +4,15 @@ class Main {
        this.$container.setAttribute('class', 'container');
  
        this.$image = document.createElement('img');
-       this.$image.setAttribute('class', 'rounded-full  w-64 h-80 mt-24 ml-40');
+       this.$image.setAttribute('class', 'rounded-full  w-64 h-80 mt-24 ml-40 ');
        this.$image.src = './image/meo.jpg';
  
        this.$name = document.createElement('p');
-       this.$name.setAttribute('class', 'font-medium text-2xl ml-36 mt-8')
+       this.$name.setAttribute('class', 'font-medium text-2xl ml-36 mt-8 text-blue-500')
        this.$name.innerText = 'NGUYỄN SỸ THÀNH HƯNG';
  
        this.$spanName = document.createElement('p');
-       this.$spanName.setAttribute('class', 'font-medium text-xl ml-36 mt-');
+       this.$spanName.setAttribute('class', 'font-medium text-xl ml-36 mt-4');
        this.$spanName.innerText = 'Full Stack Developer';
  
        this.$bantick = document.createElement('img');
