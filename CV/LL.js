@@ -1,11 +1,12 @@
 import personal from '../newModel/noPersonal.js'
 import icon from '../newModel/icon.js'
+
 class brg {
     constructor() {
+
         this.$container = document.createElement('div');
-        this.$container.setAttribute('class', 'flex')
-       
-       
+        this.$container.setAttribute('class', 'flex ' )
+        
         this.$image_1 = new icon(
             './image/calendar.png',
              './image/phone.png',
@@ -16,7 +17,7 @@ class brg {
              );
 
         this.$container_1 = document.createElement('div');
-        this.$container_1.setAttribute('class', 'flex flex-col ml-10')
+        this.$container_1.setAttribute('class', 'flex flex-col')
         
         this.$input_1 = new personal(
             'Ngày sinh',
@@ -37,13 +38,14 @@ class brg {
         this.$input_5 = new personal(
             'Địa chỉ',
             `số 81, ngõ 158 Nguyễn Khánh Toàn, Quan Hoa,
-            Cầu Giay, Hà Nội
+            Cầu Giấy, Hà Nội
             `
         );
         this.$input_6 = new personal(
             'Giới tính',
             'Nam'
         );
+
     }
     render() {
         this.$container.appendChild(this.$image_1.render());

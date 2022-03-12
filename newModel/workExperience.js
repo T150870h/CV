@@ -16,7 +16,7 @@ class workExperience {
         this.$address.innerText = address;
  
         this.$duty = document.createElement('p');
-        this.$duty.setAttribute('class', 'font-medium font-light  ml-36 mt-2');
+        this.$duty.setAttribute('class', 'font-medium font-light  ml-36 mt-2 mb-8');
         this.$duty.innerText = duty;
 
     }

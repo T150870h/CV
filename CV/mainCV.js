@@ -1,7 +1,7 @@
 class Main {
     constructor() {
        this.$container = document.createElement('div');
-       this.$container.setAttribute('class', 'container');
+       this.$container.setAttribute('class', 'container ');
  
        this.$image = document.createElement('img');
        this.$image.setAttribute('class', 'rounded-full  w-64 h-80 mt-24 ml-40 ');
@@ -20,7 +20,7 @@ class Main {
        this.$bantick.src = './image/bantick.png';
  
        this.$introduce = document.createElement('p');
-       this.$introduce.setAttribute('class', 'w-2/5 ml-36 mt-2');
+       this.$introduce.setAttribute('class', 'w-2/5 ml-36 mt-2 ');
        this.$introduce.innerText = `Áp dụng kiến thức học và kinh nghiệm về kỹ năng lập trình đang 
                                     và đã học để hoàn thành tốt các dự án, tập trung và học hỏi để nâng 
                                     cao trình độ bản thân để từ đó giúp các dự án của bản thân được 
@@ -36,7 +36,3 @@ class Main {
     }
  }
  export default Main;
-//  const CvEl = document.getElementById('cv');
-//  const main = new Main();
-//  CvEl.appendChild(main.render());
- 

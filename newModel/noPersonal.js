@@ -1,7 +1,8 @@
 
 class personal {
     constructor(input_1, input_2, ) {
-        this.$container = document.createElement('div');
+        this.$container = document.createElement('div');  
+        this.$container.setAttribute('class', 'pl-4 ');  
 
         this.$input_1 = document.createElement('p');
         this.$input_1.setAttribute('class', 'font-bold text-xl mt-4')
