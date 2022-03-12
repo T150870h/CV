@@ -14,8 +14,6 @@ class sample {
         this.$Education = document.createElement('p');
         this.$Education.setAttribute('class', 'text-xl font-bold text-gray-800 ml-4 pt-2')
         this.$Education.innerHTML = text;
-
-
     }
     render() {
         this.$container.appendChild(this.$container_1);
