@@ -1,5 +1,4 @@
 import Main from "./CV/mainCV.js";
-import Knlv from "./CV/Knlv.js";
 import brg from "./CV/LL.js ";
 import graduation from './CV/HVKN.js'
 class views {
