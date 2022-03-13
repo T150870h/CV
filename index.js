@@ -16,12 +16,14 @@ class views {
         this.$graduation = new graduation();
     }
     render() {
-        this.$container_1.appendChild(this.$main.render());
-        this.$container_1.appendChild(this.$knlv.render());
-        this.$container_2.appendChild(this.$brg.render());
-        this.$container_2.appendChild(this.$graduation.render());
         this.$container.appendChild(this.$container_1);
         this.$container.appendChild(this.$container_2);
+        
+        this.$container_1.appendChild(this.$main.render());
+        this.$container_1.appendChild(this.$knlv.render());
+
+        this.$container_2.appendChild(this.$brg.render());
+        this.$container_2.appendChild(this.$graduation.render());
       
         return this.$container;
     }
