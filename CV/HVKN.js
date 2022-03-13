@@ -29,7 +29,7 @@ class graduation {
         this.$wires_1.innerText = `- Đạt chứng chỉ: Khoá 1: HTML  và  CSS
                                     - Đạt chứng chỉ: Khoá 2: JavaScript  
                                     - Đã tham gia và hoàn thành 2 đồ án:
-                                             - Đồ án 1: 
+                                             - Đồ án 1: https://t150870h.github.io/coffee-new/
                                              - Đồ án 2: 
                                     `
         this.$skills = new sample(
