@@ -1,5 +1,5 @@
 import Main from "./CV/mainCV.js";
-import Knlv from "./CV/Knlv.js";
+import Knlv from "./CV/KNLV.js";
 import brg from "./CV/LL.js ";
 import graduation from './CV/HVKN.js'
 class views {
@@ -18,7 +18,7 @@ class views {
     render() {
         this.$container.appendChild(this.$container_1);
         this.$container.appendChild(this.$container_2);
-        
+
         this.$container_1.appendChild(this.$main.render());
         this.$container_1.appendChild(this.$knlv.render());
 
