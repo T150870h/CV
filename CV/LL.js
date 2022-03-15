@@ -37,7 +37,7 @@ class brg {
         );
         this.$input_5 = new personal(
             'Địa chỉ',
-            `số 81, ngõ 158 Nguyễn Khánh Toàn, Quan Hoa,
+            `Ngõ 158 Nguyễn Khánh Toàn, Quan Hoa,
             Cầu Giấy, Hà Nội
             `
         );
