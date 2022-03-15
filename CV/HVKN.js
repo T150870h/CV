@@ -29,9 +29,11 @@ class graduation {
         this.$wires_1.innerText = `- Đạt chứng chỉ: Khoá 1: HTML  và  CSS
                                     - Đạt chứng chỉ: Khoá 2: JavaScript  
                                     - Đã tham gia và hoàn thành 2 đồ án:
-                                             - Đồ án 1: https://t150870h.github.io/coffee-new/
-                                             - Đồ án 2: 
                                     `
+        this.$wires_2 = document.createElement('p');
+        this.$wires_2.setAttribute('class', 'ml-16 mt-2  ')
+        this.$wires_2.href = ''
+
         this.$skills = new sample(
             './image/brightnes.png',
             'Kỹ năng'
