@@ -4,7 +4,7 @@ class Skills {
          this.$container = document.createElement('div');
 
          this.$skills_1 = document.createElement('p');
-            this.$skills_1.setAttribute('class', 'ml-16 mt-2 font-medium text-xl')
+            this.$skills_1.setAttribute('class', 'ml-16 mt-4 font-medium text-xl')
          this.$skills_1.innerText = skills_1;
 
          this.$skills_2 = document.createElement('p');

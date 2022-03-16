@@ -38,14 +38,22 @@ class graduation {
             'Kỹ năng'
         );
 
-        this.$skills_1 = new  Skills (
-            `tin học:`,
-            `- có khả năng cài win máy tính, có kiến thức về
-            máy tính` 
-        );
-        this.$skills_2 = new Skills (
+        this.$skills_1 = new Skills (
           `Kỹ năng làm việc nhóm: `,
            `- Lắng nghe và tiếp thu ý kiến từ đồng nghiệp, hướng đến mục tiêu chung để hoàn thành công việc nhóm`
+        );
+
+        this.$skill_2 = new Skills (
+             `Kỹ năng giao tiếp`,
+             `- Có khả năng thuyết trình, giao tiếp trôi chảy, lưu loát`
+        )
+
+        this.$skill_3 = new Skills (
+            `Kỹ năng xử lý và giải quyết vấn đề`,
+            `- Khả năng tập trung giải quyết vấn đề tốt
+             - Giải quết nhanh gọn vẫn đề `
+
+
         );
     }
     
@@ -61,7 +69,8 @@ class graduation {
         this.$container_2.appendChild(this.$wires_3);
         this.$container_2.appendChild(this.$skills.render());
         this.$container_2.appendChild(this.$skills_1.render());
-        this.$container_2.appendChild(this.$skills_2.render());
+        this.$container_2.appendChild(this.$skill_2.render());
+        this.$container_2.appendChild(this.$skill_3.render());
         
        
         return this.$container;
