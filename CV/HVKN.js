@@ -22,11 +22,17 @@ class graduation {
                                     - Đạt chứng chỉ: Khoá 2: JavaScript  
                                     - Đã tham gia và hoàn thành 2 đồ án:
                                     `
-        this.$wires_2 = document.createElement('p');
-        this.$wires_2.setAttribute('class', 'ml-16 mt-2')
-        this.$wires_2.innerText = `- `
+        this.$wires_2 = document.createElement('a');
+        this.$wires_2.setAttribute('class', 'ml-32 mt-2')
+        this.$wires_2.innerText = `- Coffee Shop`
         this.$wires_2.href = 'https://t150870h.github.io/coffee-new/'
 
+        this.$wires_3 = document.createElement('a');
+        this.$wires_3.setAttribute('class', 'ml-32 mt-2')
+        this.$wires_3.innerText = `- Chat App`
+        this.$wires_3.href = 'https://t150870h.github.io/chat-app/'
+        
+ 
         this.$skills = new sample(
             './image/brightnes.png',
             'Kỹ năng'
@@ -41,15 +47,18 @@ class graduation {
           `Kỹ năng làm việc nhóm: `,
            `- Lắng nghe và tiếp thu ý kiến từ đồng nghiệp, hướng đến mục tiêu chung để hoàn thành công việc nhóm`
         );
-       
-
     }
+    
+    
+ 
     render() {
         this.$container_1.appendChild(this.$graduation.render());
         this.$container.appendChild(this.$container_1);
         this.$container.appendChild(this.$container_2);
         this.$container_2.appendChild(this.$text_1);
         this.$container_2.appendChild(this.$wires_1);
+        this.$container_2.appendChild(this.$wires_2);
+        this.$container_2.appendChild(this.$wires_3);
         this.$container_2.appendChild(this.$skills.render());
         this.$container_2.appendChild(this.$skills_1.render());
         this.$container_2.appendChild(this.$skills_2.render());
