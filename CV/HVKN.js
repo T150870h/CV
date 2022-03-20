@@ -52,9 +52,13 @@ class graduation {
             `Kỹ năng xử lý và giải quyết vấn đề`,
             `- Khả năng tập trung giải quyết vấn đề tốt
              - Giải quết nhanh gọn vẫn đề `
-
-
         );
+        this.$skill_4 = new Skills (
+            `Kỹ năng làm việc`,
+           `- Dùng thư viên tailwindcss xây dựng trang web
+            - Có khả năng làm việc với các framework của nhóm
+            - Có khả năng làm việc với firebase`, 
+        )
     }
     
     
@@ -71,6 +75,7 @@ class graduation {
         this.$container_2.appendChild(this.$skills_1.render());
         this.$container_2.appendChild(this.$skill_2.render());
         this.$container_2.appendChild(this.$skill_3.render());
+        this.$container_2.appendChild(this.$skill_4.render());
         
        
         return this.$container;
