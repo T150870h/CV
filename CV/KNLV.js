@@ -30,21 +30,13 @@ class Knlv {
               - Trực tiếp, giới thiệu sản phẩm cho khách hàng tư vấn khách hàng 
              `
          )
-         this.$time_4 = new workExperience(
-            '6/2021  -  đến nay',
-            'nhân viên tư vân, bán hàng, thu ngân',
-            'Cửa hàng tiện lợi Vinmart+',
-            `- Tham gia truyền thông cửa hàng
-            -  Trực tiếp, giới thiệu sản phẩm cho khách hàng tư vấn khách hàng
-            -  Thu ngân`
-         );
+        
     }
     render() {
         this.$container.appendChild(this.$worrk);
         this.$container.appendChild(this.$time_1.render());
         this.$container.appendChild(this.$time_2.render());
         this.$container.appendChild(this.$time_3.render());
-        this.$container.appendChild(this.$time_4.render());
         return this.$container;
     }
 }
